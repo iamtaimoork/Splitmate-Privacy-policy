@@ -1,0 +1,54 @@
+/* Custom base styles to complement Tailwind CSS */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom styles for privacy policy content for better readability */
+.privacy-content h2 {
+    font-size: 1.5rem; /* 24px */
+    line-height: 2rem; /* 32px */
+    font-weight: 600;
+    margin-top: 2.5rem; /* 40px */
+    margin-bottom: 1rem; /* 16px */
+    color: #111827; /* gray-900 */
+    border-bottom: 1px solid #e5e7eb; /* gray-200 */
+    padding-bottom: 0.5rem;
+}
+
+.privacy-content h3 {
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.75rem; /* 28px */
+    font-weight: 600;
+    margin-top: 2rem; /* 32px */
+    margin-bottom: 0.75rem; /* 12px */
+    color: #1f2937; /* gray-800 */
+}
+
+.privacy-content p {
+    margin-bottom: 1.25rem; /* 20px */
+    line-height: 1.75;
+    color: #374151; /* gray-700 */
+}
+
+.privacy-content ul {
+    list-style-type: disc;
+    list-style-position: outside;
+    margin-bottom: 1.25rem; /* 20px */
+    padding-left: 1.5rem; /* 24px */
+    color: #374151; /* gray-700 */
+}
+
+.privacy-content li {
+    margin-bottom: 0.75rem; /* 12px */
+    padding-left: 0.5rem;
+}
+
+.privacy-content a {
+    color: #2563eb; /* blue-600 */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.privacy-content a:hover {
+    text-decoration: underline;
+}
